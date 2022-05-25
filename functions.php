@@ -1,14 +1,14 @@
 <?php 
 
-    define('DB_SERVER', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
-    define('DB_NAME', 'movie_review');
+define('DB_HOST', 'us-cdbr-east-05.cleardb.net');
+define('DB_USER', 'b41182867703ab');
+define('DB_PASS', 'a6cb9054');
+define('DB_NAME', 'heroku_1c91224e7ae236b');
     
     class DB_con {
 
         function __construct() {
-            $conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+            $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
             $this->dbcon = $conn;
 
             if (mysqli_connect_errno()) {
