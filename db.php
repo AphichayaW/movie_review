@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'us-cdbr-east-05.cleardb.net');
-define('DB_USER', 'b41182867703ab');
-define('DB_PASS', 'a6cb9054');
-define('DB_NAME', 'heroku_1c91224e7ae236b');
+define('DB_HOST', '');
+define('DB_USER', '');
+define('DB_PASS', '');
+define('DB_NAME', '');
 
 // Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
